@@ -1,0 +1,136 @@
+body {
+    background-color: #FFBF51;
+}
+.header {
+    width: 100%;
+    height: 40Px;
+    margin-right:100px;
+}
+#nav {
+    float:left;
+    width: 500px;
+    height: 40px;
+}
+#links {
+    float:right;
+    width: 400px;
+    height: 40px;
+}
+#nav ul li {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+#links ul li {
+    display: block;
+    float: right;
+    list-style: none;
+    padding: 10px 10px;
+    margin-top: 0px;
+}
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+#links ul li a {
+    text-decoration: none;
+}
+
+.icon {
+    width:30px;
+    height:30px;
+    }
+input {
+
+    width: 150px;
+    height: 25px;
+    color: black;
+    border: 3px solid black;
+    background-color: #FFBF51;
+}
+.about {
+     width: 100%;
+   }
+#tagline, #aboutpic {
+    float: left;
+    height: 450px;
+
+}
+#tagline {
+     
+     font-size: 65px;
+     font-weight: 800;
+     color: black;
+     width: 500px;
+     height: 450px;
+     margin-left: 150px;
+     margin right:20px;
+}
+#aboutpic {
+        height: 450px;
+        width: 490px;
+        font-size: 16px;
+        text-align: center;
+        font-family: serif;
+        text-decoration: none;
+        font-style: italic;
+        margin-left: 0px;
+        margin-right: 20px;
+}
+.img-circle {
+    width: 340px;
+	border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#aboutpic p a {
+     text-decoration: underline;
+     font-family: serif;
+     color: black;
+ }
+
+.articles {
+    width:100%;
+    min-height: 700px;
+}
+#runarticle, #cookarticle, #writearticle {
+    width:30%;
+    height: 700px;
+    float:left;
+    padding: 10px;
+    margin-left: 12px;
+    font-style: italic
+}
+
+.atitle {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: times;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+.excerpt {
+    font-size: 12px;
+    text-align: justify;
+}
+.img-art {
+    width:360px;
+    height: 360px;
+    margin-left: 0px;
+}
+
+#rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
