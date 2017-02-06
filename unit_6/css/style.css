@@ -131,3 +131,29 @@ footer {
 	padding: 0 2em 2em;
 
 }
+
+
+@media screen and (max-width: 1200px) {
+	body {
+		border: 3px solid red;
+	}
+
+	.logo {
+		display: block;
+
+	}
+	.logo a { 
+		font-size: 32px;
+		color: green;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		border: 3px solid green;
+	}
+
+	.logo a { 
+		font-size: 32px;
+	}
+}
