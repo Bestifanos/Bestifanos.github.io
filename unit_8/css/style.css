@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	font-size:24px;
+}
+
+#mwrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+nav {
+	width:100%;
+	display:inline-block;
+	background: grey;
+}
+
+#lnav {
+	display:inline-block;
+	width:48%;
+	float:left;
+	font-family: courier;
+	padding: 1%;
+}
+#lnav a {
+    text-decoration: none;
+    color: black;
+}
+
+#rnav {
+	display:inline-block;
+	width:48%;
+	float:right;
+	padding: 1%;
+}
+ #rnav a {
+ 	float: right;
+ 	text-decoration: none;
+ 	margin-left: 1%;
+ 	padding:0 1%;
+ }
+#logo {
+	width:100%;
+	margin:0 auto;
+	background: yellow;
+	text-align: center;
+}
+
+#logo a {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+}
+#awrapper {
+	width:100%;
+	background: cyan;
+	float: left;
+}
+#twrapper {
+	width:48%;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 2.2em;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+	padding:2%;
+}
+#hwrapper {
+	width:46%;
+	display: inline-block;
+	text-align: center;
+	font-family: courier;
+	font-size: 1em;
+	font-style: bold;
+	color: black;
+	padding:1%;
+	float: right;
+}
+
+
+
+main {
+	background: rgb(245,245,220);
+}
+
+article {
+	width: 25%;
+	display: inline-block;
+	padding: 1% 2%;
+	margin: 1% 2%;
+	font-size: 0.8em;
+	text-align: justify;
+	background: white;
+}
+
+article p {
+	width: 100%;
+}
+.img-art {
+	width:100%;
+}
+#iheight {
+	height: 3%;
+}
+h3 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	text-align: center;
+	font-size:2em;
+	text-decoration:none;
+	color: black;
+	background: rgb(86,128,171);
+	font-family: 'Pacifico', cursive;
+	padding: 0 2em 2em;
+
+}
+
+
+@media screen and (max-width: 1435px) {
+ 
+}
