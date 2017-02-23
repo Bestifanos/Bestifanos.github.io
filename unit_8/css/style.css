@@ -96,16 +96,13 @@ article {
 	text-align: justify;
 	background: white;
 }
-
-article p {
-	width: 100%;
+.pwrapper {
+	position:fixed;
 }
 .img-art {
 	width:100%;
 }
-#iheight {
-	height: 3%;
-}
+
 h3 {
 	font-family: 'Pacifico', cursive;
 	text-align: center;
@@ -134,6 +131,8 @@ footer {
 }
 
 
-@media screen and (max-width: 1435px) {
+@media screen and (max-width: 1468px) {
+	
+}
  
 }
