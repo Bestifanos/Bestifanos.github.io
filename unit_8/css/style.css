@@ -172,12 +172,12 @@ a:hover,#lnav a:hover,#logo a:hover{
 			font-size: 10px
 		}
 	#lnav{
-		width:46%;
+		width:50%;
 		font-size:1.2em;
 		padding: 3% 1% 1%;
 	}
 	#rnav{
-		width:42%;
+		width:38%;
 	}
 }
 	
