@@ -173,6 +173,7 @@ a:hover,#lnav a:hover,#logo a:hover{
 		}
 	#lnav{
 		width:46%;
+		font-size:1.5em;
 	}
 	#rnav{
 		width:42%;
