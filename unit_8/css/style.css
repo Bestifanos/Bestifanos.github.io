@@ -1,116 +1,104 @@
 
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
-body {
+body{
 	font-size:24px;
 }
-
-#mwrapper {
+#mwrapper{
 	width: 95%;
 	margin: 0 auto;
 }
-
-nav {
-	width:100%;
-	display:inline-block;
-	background: grey;
+nav{
+	width:96%;
+	padding:1% 2%;
+	background: rgb(161,172,178);
+	margin:0;
 }
-
-#lnav {
-	display:inline-block;
-	width:48%;
+#lnav{
+	width:44%;
 	float:left;
 	font-family: courier;
-	padding: 1%;
+	font-size: 1.2em;
+	font-weight: 800; 
+	padding: 1% 3%;
 }
-#lnav a {
+#lnav a{
     text-decoration: none;
     color: black;
 }
-
-#rnav {
-	display:inline-block;
-	width:48%;
+#rnav{
+	width:44%;
 	float:right;
-	padding: 1%;
+	padding: 1% 3%;
 }
- #rnav a {
+ #rnav a{
  	float: right;
  	text-decoration: none;
  	margin-left: 1%;
  	padding:0 1%;
  }
-#logo {
+#logo{
 	width:100%;
 	margin:0 auto;
-	background: yellow;
+	background: rgba(89,160,204,0.6);
 	text-align: center;
 }
-
-#logo a {
-	font-family: 'Pacifico', cursive;
-	font-size: 4em;
+#logo a{
+	font-family: 'Acme', sans-serif;
+	font-size: 5em;
 	font-style: bold;
 	text-decoration: none;
-	color: black;
+	color:rgb(0,0,0);
 }
-#awrapper {
-	width:100%;
-	background: cyan;
-	float: left;
+#awrapper{
+	width:90%;
+	background: rgba(255,99,99,0.6);
+	margin: 0 auto;
+	padding: 0 5%;
 }
-#twrapper {
-	width:48%;
-	display: inline-block;
-	font-family: 'Pacifico', cursive;
-	font-size: 2.2em;
+#twrapper{
+	width:54%;
+	font-family: 'Acme', sans-serif;
+	font-size: 2.5em;
 	font-style: bold;
 	text-decoration: none;
-	color: black;
-	padding:2%;
+	color:rgb(0,0,0);
+	padding:6% 0 3%;
+	margin: 0 auto;
+	float:left;
 }
-#hwrapper {
-	width:46%;
-	display: inline-block;
+#hwrapper{
+	width:40%;
 	text-align: center;
 	font-family: courier;
 	font-size: 1em;
 	font-style: bold;
 	color: black;
-	padding:1%;
+	padding:1% 0;
 	float: right;
+	margin: 0 auto;
 }
-
-
-
-main {
-	background: rgb(245,245,220);
+main{
+	background:rgba(255,253,129,0.6)
 }
-
-article {
-	width: 25%;
-	display: inline-block;
-	padding: 1% 2%;
-	margin: 1% 2%;
+article{
+	width: 27%;
+	float: left;
+	padding: 3.12%;
+	margin: 0 auto;
 	font-size: 0.8em;
-	text-align: justify;
-	background: white;
+	text-align: left;
 }
-.pwrapper {
-	position:fixed;
-}
-.img-art {
+.img-art{
 	width:100%;
 }
-
-h3 {
-	font-family: 'Pacifico', cursive;
+h3{
+	font-family: 'Acme', sans-serif;
 	text-align: center;
 	text-decoration: underline;
 	font-size: 1.5em;
 }
-
-.clearfix:after {
+.clearfix:after{
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -118,21 +106,73 @@ h3 {
     clear: both;
     height: 0;
 }
-
-footer {
+footer{
 	text-align: center;
-	font-size:2em;
-	text-decoration:none;
+	font-size:1em;
 	color: black;
-	background: rgb(86,128,171);
-	font-family: 'Pacifico', cursive;
-	padding: 0 2em 2em;
-
+	background: rgb(161,172,178);
+	font-family: courier;
+	padding:0.5em;
 }
-
-
-@media screen and (max-width: 1468px) {
+a:hover,#lnav a:hover,#logo a:hover{
+	color:white;
+}
+#rnav img:hover{
+	background: white;
+}
+@media screen and (max-width: 1117px){
+	body{
+		font-size: 20px
+	}
+	.hero{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 933px){
+	body{
+		font-size: 18px
+	}
+	#hwrapper{
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 842px){
+	body{
+		font-size: 15px
+		}
+	article{
+		width: 80%;
+		float: left;
+		padding: 4% 10%;
+		margin: 0 auto;
+		font-size: 2em;
+		text-align: left;
+		}
+}
+@media screen and (max-width: 596px){
+	#twrapper{
+		font-size: 2em;
+	}
+	article{
+		width: 80%;
+		float: left;
+		padding: 4% 10%;
+		margin: 0 auto;
+		font-size: 1.5em;
+		text-align: left;
+	}
+}
+@media screen and (max-width: 596px){
+	body{
+		font-size: 12px
+	}
+}
+@media screen and (max-width: 403px){
+	#lnav{
+		width:46%;
+	}
+	#rnav{
+		width:42%;
+	}
+}
 	
-}
- 
-}
